@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.9.1" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="3.0.3" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlowGenerator\FlowGenerator.csproj" />
+    <ProjectReference Include="..\LibSolver\LibSolver.csproj" />
+    <ProjectReference Include="..\WebLab7_1\WebLab7_1.csproj" />
+  </ItemGroup>
+
+</Project>
